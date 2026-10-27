@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Neymar - Demonstração Completa de CSS</title>
+    
+    <!-- CSS INTERNAL (Aplicado aqui no Head) -->
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+        .bloco-internal {
+            background-color: #1f1f1f;
+            border: 2px solid #00f5d4;
+            padding: 20px;
+            margin: 20px auto;
+            width: 60%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. EXEMPLO DE CSS IN-LINE (Direto na tag) -->
+    <div style="background-color: #2b0909; border: 2px solid #ff0055; padding: 20px; margin: 20px auto; width: 60%; border-radius: 8px;">
+        <h2 style="color: #ff0055; margin-top: 0;">1. Exemplo de CSS In-line</h2>
+        <p>Este bloco usa o atributo <code>style="..."</code> diretamente na tag HTML.</p>
+        <p style="color: #ffcc00; font-weight: bold;">Tema: Neymar Jr - O Artilheiro.</p>
+    </div>
+
+    <!-- 2. EXEMPLO DE CSS INTERNAL (Usando a tag <style> do cabeçalho acima) -->
+    <div class="bloco-internal">
+        <h2 style="color: #00f5d4; margin-top: 0;">2. Exemplo de CSS Internal</h2>
+        <p>Este bloco utiliza estilos definidos dentro da tag <code>&lt;style&gt;</code> no cabeçalho da página.</p>
+        <p style="color: #ff007f; font-weight: bold;">Tema: Magia e Dribles em Campo.</p>
+    </div>
+
+    <!-- 3. EXEMPLO DE CSS EXTERNAL (Lido a partir de um ficheiro .css separado) -->
+    <!-- Se tiveres o style.css criado, podes ligá-lo com <link rel="stylesheet" href="style.css"> -->
+    <div style="background-color: #0d1b2a; border: 2px solid #3498db; padding: 20px; margin: 20px auto; width: 60%; border-radius: 8px;">
+        <h2 style="color: #3498db; margin-top: 0;">3. Exemplo de CSS External</h2>
+        <p>No formato external, o estilo fica guardado num ficheiro separado (ex: <code>style.css</code>) e é ligado a várias páginas.</p>
+    </div>
+
+</body>
+</html>

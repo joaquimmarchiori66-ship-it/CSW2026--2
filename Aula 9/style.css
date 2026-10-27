@@ -1,0 +1,30 @@
+body {
+    background-color: #0b090a;
+    color: #f5f3f4;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+h1, h2 {
+    color: #e5383b;
+}
+
+.container {
+    background-color: #161a1d;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #660708;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+a {
+    color: #ba181b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
